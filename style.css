@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo1{
+    width: 10%;
+    height: auto;
+    max-height: 15%;
+    float: left;
+    margin: auto;
+    position: absolute;
+    top: -5px;
+    right: 7px;
+}
+
+#logo2{
+    width: 10%;
+    height: auto;
+    max-height: 15%;
+    float: left;
+    margin: auto;
+    position: absolute;
+    top: -5px;
+    left: 7px;
+}
+
+#logo1,#logo2{
+   animation: logo 6s linear 0s infinite alternate;
+}
+
+@keyframes logo{
+    0% {transform:rotateY(0deg);}
+    20% {transform:rotateY(180deg);}
+    40% {transform:rotatez(180deg);}
+    60% {transform:rotatex(180deg);}
+    80% {transform:rotateY(180deg);}
+    100% {transform:rotatez(0deg);}
+}
+
+.title{
+    background-color: lightblue;
+    padding-top: 27px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 0px 0px 4px #42404d;
+    color: #000000;
+}
+
+.bg{
+    background-image: url('./jesiel-rubio-k9OdoRWR8vc-unsplash.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+img{
+    height:auto;
+    width: 50%;
+    display: block;
+    margin: auto;
+    opacity: 1;
+    z-index: 1;
+    
+}
+
+.img img{
+    box-shadow: 0px 0px 40px 10px #0ff;
+}
+
+.text{
+ padding-left: 40px;
+ padding-bottom: 20px;
+ padding-right:20px;
+ padding-top: 35px;
+ color: white;
+ text-align: justify;
+ width: 80%;
+ margin: auto;
+}
+
+.footer{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Zilla Slab', serif;
+    background-color: lightblue;
+}
+
+.footer h1{
+    text-shadow: 0px 0px 4px #42404d;
+    color: #000000;
+}
+ 
+.footer p{
+    text-transform: capitalize;
+    font-weight: bold;
+    word-spacing: 4px;
+}
+
+.footer p i{
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+.footer img{
+    padding-top: 30px;
+    border: none;
+}
